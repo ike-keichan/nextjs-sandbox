@@ -1,0 +1,18 @@
+{
+  "customSyntax": "postcss-styled-syntax",
+  "extends": [
+    "stylelint-config-standard",
+    "stylelint-config-styled-components",
+    "./configs/stylelint/plugin",
+    "./configs/stylelint/common",
+    "./configs/stylelint/order"
+  ],
+  "rules": {
+    "plugin/no-unsupported-browser-features": [
+      true,
+      {
+        "ignore": ["css-nesting"]
+      }
+    ]
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "version": "0.2",
+  "language": "en",
+  "dictionaries": [
+    "en_US",
+    "typescript",
+    "node",
+    "html",
+    "css",
+    "npm",
+    "fonts",
+    "product",
+    "develop"
+  ],
+  "dictionaryDefinitions": [
+    {
+      "name": "product",
+      "path": "./configs/cspell/product.txt"
+    },
+    {
+      "name": "develop",
+      "path": "./configs/cspell/develop.txt"
+    }
+  ],
+  "ignorePaths": ["node_modules"]
+}
