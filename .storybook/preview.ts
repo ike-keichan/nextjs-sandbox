@@ -1,4 +1,4 @@
-import { withThemeFromJSXProvider } from '@storybook/addon-styling';
+import { withThemeFromJSXProvider } from '@storybook/addon-themes';
 import 'the-new-css-reset/css/reset.css';
 
 import { GlobalStyles } from '../src/shared/styles/GlobalStyles';
