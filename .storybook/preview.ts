@@ -1,7 +1,7 @@
 import { withThemeFromJSXProvider } from '@storybook/addon-themes';
 import 'the-new-css-reset/css/reset.css';
 
-import { GlobalStyles } from '../src/shared/styles/GlobalStyles';
+import { GlobalStyle } from '../src/shared/styles/GlobalStyle';
 
 import type { Preview } from '@storybook/nextjs';
 
@@ -22,7 +22,7 @@ const preview: Preview = {
 
 export const decorators = [
   withThemeFromJSXProvider({
-    GlobalStyles,
+    GlobalStyle,
   }),
 ];
 
